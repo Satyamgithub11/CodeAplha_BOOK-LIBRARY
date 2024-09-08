@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #428e97, #9265aa);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+#search {
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+}
+
+.book-container {
+    margin: 20px 0;
+}
+
+form{
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #3f51b5;
+    width: calc(33.333% -10px);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #0056bc;
+}
+
+#book-list{
+    list-style: none;
+    padding: 0;
+}
+
+#book-list li{
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    transition: transform 0.2s;
+
+}
+
+#book-list li:hover{
+    transform: scale(1.02);
+}
+
+.borrowed-history {
+    margin-bottom: 40px;
+}
+
+.borrowed-history h2 {
+    margin-bottom: 10px;
+}
+
+#history-list{
+    list-style: none;
+    padding: 0;
+}
